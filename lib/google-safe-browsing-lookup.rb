@@ -109,9 +109,6 @@ class SafeBrowsingLookup
 		return results
 	end
 
-
-	private
-
 	# Not much is actually done, full URL canonicalization is not required with the Lookup library according to the API documentation
 	def canonical(url='')
 		# remove leading/ending white spaces
